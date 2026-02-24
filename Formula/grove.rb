@@ -53,6 +53,13 @@ class Grove < Formula
     virtualenv_install_with_resources
   end
 
+  def caveats
+    <<~EOS
+      Add shell integration to your shell profile for `gw go` to work:
+        eval "$(gw shell-init)"
+    EOS
+  end
+
   test do
     assert_match "Usage", shell_output("#{bin}/gw --help")
   end

@@ -3,8 +3,8 @@ class Grove < Formula
 
   desc "Git Worktree Workspace Orchestrator"
   homepage "https://github.com/nicksenap/grove"
-  url "https://github.com/nicksenap/grove/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "47755083c81d180e5e5c5cba96bd3a2de54f62db2434d06ce105e6e52e4f5603"
+  url "https://github.com/nicksenap/grove/archive/refs/tags/v0.4.1.tar.gz"
+  sha256 "f886ed83857899eb76e0fe7cd561140276a0a9f4f1bb12510287921358088cc8"
   license "MIT"
 
   depends_on "python@3.12"
@@ -29,7 +29,7 @@ class Grove < Formula
     sha256 "bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"
   end
 
-  resource "pygments" do
+  resource "Pygments" do
     url "https://files.pythonhosted.org/packages/b0/77/a5b8c569bf593b0140bde72ea885a803b82086995367bf2037de0159d924/pygments-2.19.2.tar.gz"
     sha256 "636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887"
   end

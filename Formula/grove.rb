@@ -3,8 +3,8 @@ class Grove < Formula
 
   desc "Git Worktree Workspace Orchestrator"
   homepage "https://github.com/nicksenap/grove"
-  url "https://github.com/nicksenap/grove/archive/refs/tags/v0.7.1.tar.gz"
-  sha256 "5ae1889636760b7c76635015b93ce0fe407e25e27605c4b7c33c043a2ab0685d"
+  url "https://github.com/nicksenap/grove/archive/refs/tags/v0.8.0.tar.gz"
+  sha256 "58bfb45e9900fe166533060a657bcb116f7530781dfae3855f689e4d2dd8e50f"
   license "MIT"
 
   depends_on "python@3.12"
@@ -40,8 +40,8 @@ class Grove < Formula
   end
 
   resource "platformdirs" do
-    url "https://files.pythonhosted.org/packages/1b/04/fea538adf7dbbd6d186f551d595961e564a3b6715bdf276b477460858672/platformdirs-4.9.2.tar.gz"
-    sha256 "9a33809944b9db043ad67ca0db94b14bf452cc6aeaac46a88ea55b26e2e9d291"
+    url "https://files.pythonhosted.org/packages/19/56/8d4c30c8a1d07013911a8fdbd8f89440ef9f08d07a1b50ab8ca8be5a20f9/platformdirs-4.9.4.tar.gz"
+    sha256 "1ec356301b7dc906d83f371c8f487070e99d3ccf9e501686456394622a01a934"
   end
 
   resource "Pygments" do

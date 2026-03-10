@@ -3,8 +3,8 @@ class Grove < Formula
 
   desc "Git Worktree Workspace Orchestrator"
   homepage "https://github.com/nicksenap/grove"
-  url "https://github.com/nicksenap/grove/archive/refs/tags/v0.9.0.tar.gz"
-  sha256 "b92eb74be87aced27a8229fd988a0ecc9782fe552f93844f75020de4ffaac8a2"
+  url "https://github.com/nicksenap/grove/archive/refs/tags/v0.10.0.tar.gz"
+  sha256 "7d6c631b1c577e791af117eb94b017e17a7a5225ef52fc3b92a6a38f2a525f6d"
   license "MIT"
 
   depends_on "python@3.12"
@@ -65,8 +65,8 @@ class Grove < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/be/08/c6bcb1e3c4c9528ec9049f4ac685afdafc72866664270f0deb416ccbba2a/textual-8.0.2.tar.gz"
-    sha256 "7b342f3ee9a5f2f1bd42d7b598cae00ff1275da68536769510db4b7fe8cabf5d"
+    url "https://files.pythonhosted.org/packages/72/23/8c709655c5f2208ee82ab81b8104802421865535c278a7649b842b129db1/textual-8.1.1.tar.gz"
+    sha256 "eef0256a6131f06a20ad7576412138c1f30f92ddeedd055953c08d97044bc317"
   end
 
   resource "typer" do

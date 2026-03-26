@@ -3,8 +3,8 @@ class Grove < Formula
 
   desc "Git Worktree Workspace Orchestrator"
   homepage "https://github.com/nicksenap/grove"
-  url "https://github.com/nicksenap/grove/archive/refs/tags/v0.12.8.tar.gz"
-  sha256 "f713dcc5dfc08cb0b504e214e99e5c1711a43718e4c74cbe962b791150a65f89"
+  url "https://github.com/nicksenap/grove/archive/refs/tags/v0.12.10.tar.gz"
+  sha256 "9bfeeac61105186f65b16397fd500f6a3c1381cf9115f38cb83471c1c8812b09"
   license "MIT"
 
   depends_on "python@3.12"
@@ -12,6 +12,11 @@ class Grove < Formula
   resource "annotated-doc" do
     url "https://files.pythonhosted.org/packages/57/ba/046ceea27344560984e26a590f90bc7f4a75b06701f653222458922b558c/annotated_doc-0.0.4.tar.gz"
     sha256 "fbcda96e87e9c92ad167c2e53839e57503ecfda18804ea28102353485033faa4"
+  end
+
+  resource "build" do
+    url "https://files.pythonhosted.org/packages/6c/1d/ab15c8ac57f4ee8778d7633bc6685f808ab414437b8644f555389cdc875e/build-1.4.2.tar.gz"
+    sha256 "35b14e1ee329c186d3f08466003521ed7685ec15ecffc07e68d706090bf161d1"
   end
 
   resource "click" do
@@ -39,6 +44,11 @@ class Grove < Formula
     sha256 "bb413d29f5eea38f31dd4754dd7377d4465116fb207585f97bf925588687c1ba"
   end
 
+  resource "packaging" do
+    url "https://files.pythonhosted.org/packages/65/ee/299d360cdc32edc7d2cf530f3accf79c4fca01e96ffc950d8a52213bd8e4/packaging-26.0.tar.gz"
+    sha256 "00243ae351a257117b6a241061796684b084ed1c516a08c48a3f7e147a9d80b4"
+  end
+
   resource "platformdirs" do
     url "https://files.pythonhosted.org/packages/19/56/8d4c30c8a1d07013911a8fdbd8f89440ef9f08d07a1b50ab8ca8be5a20f9/platformdirs-4.9.4.tar.gz"
     sha256 "1ec356301b7dc906d83f371c8f487070e99d3ccf9e501686456394622a01a934"
@@ -47,6 +57,11 @@ class Grove < Formula
   resource "Pygments" do
     url "https://files.pythonhosted.org/packages/b0/77/a5b8c569bf593b0140bde72ea885a803b82086995367bf2037de0159d924/pygments-2.19.2.tar.gz"
     sha256 "636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887"
+  end
+
+  resource "pyproject_hooks" do
+    url "https://files.pythonhosted.org/packages/e7/82/28175b2414effca1cdac8dc99f76d660e7a4fb0ceefa4b4ab8f5f6742925/pyproject_hooks-1.2.0.tar.gz"
+    sha256 "1e859bd5c40fae9448642dd871adf459e5e2084186e8d2c2a79a824c970da1f8"
   end
 
   resource "rich" do

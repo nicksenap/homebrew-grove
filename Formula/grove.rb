@@ -3,11 +3,13 @@ class Grove < Formula
 
   desc "Git Worktree Workspace Orchestrator"
   homepage "https://github.com/nicksenap/grove"
-  url "https://github.com/nicksenap/grove/archive/refs/tags/v0.12.13.tar.gz"
-  sha256 "a4071912818c19fe6ba2440912787152889b1008c374397f8ba96fb103dcaa07"
+  url "https://github.com/nicksenap/grove/archive/refs/tags/v0.12.14.tar.gz"
+  sha256 "c61b60f2383c4eb7515d64f23efaee7fc836aa89460e9df54fe0f67bf65a4a18"
   license "MIT"
 
+  depends_on "openssl@3"
   depends_on "python@3.12"
+  depends_on "rust" => :build
 
   resource "annotated-doc" do
     url "https://files.pythonhosted.org/packages/1e/d3/26bf1008eb3d2daa8ef4cacc7f3bfdc11818d111f7e2d0201bc6e3b49d45/annotated_doc-0.0.4-py3-none-any.whl"

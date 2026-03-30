@@ -3,8 +3,8 @@ class Grove < Formula
 
   desc "Git Worktree Workspace Orchestrator"
   homepage "https://github.com/nicksenap/grove"
-  url "https://github.com/nicksenap/grove/archive/refs/tags/v0.12.14.tar.gz"
-  sha256 "c61b60f2383c4eb7515d64f23efaee7fc836aa89460e9df54fe0f67bf65a4a18"
+  url "https://github.com/nicksenap/grove/archive/refs/tags/v0.12.15.tar.gz"
+  sha256 "d8f86b7060a398eb8ee9472a6fbbfd9cf69e64e3d977c9fc63d52847271ce6db"
   license "MIT"
 
   depends_on "openssl@3"
@@ -142,8 +142,8 @@ class Grove < Formula
   end
 
   resource "Pygments" do
-    url "https://files.pythonhosted.org/packages/c7/21/705964c7812476f378728bdf590ca4b771ec72385c533964653c68e86bdc/pygments-2.19.2-py3-none-any.whl"
-    sha256 "86540386c03d588bb81d44bc3928634ff26449851e99741617ecb9037ee5ec0b"
+    url "https://files.pythonhosted.org/packages/f4/7e/a72dd26f3b0f4f2bf1dd8923c85f7ceb43172af56d63c7383eb62b332364/pygments-2.20.0-py3-none-any.whl"
+    sha256 "81a9e26dd42fd28a23a2d169d86d7ac03b46e2f8b59ed4698fb4785f946d0176"
   end
 
   resource "PyJWT" do
@@ -192,8 +192,8 @@ class Grove < Formula
   end
 
   resource "sse-starlette" do
-    url "https://files.pythonhosted.org/packages/78/e2/b8cff57a67dddf9a464d7e943218e031617fb3ddc133aeeb0602ff5f6c85/sse_starlette-3.3.3-py3-none-any.whl"
-    sha256 "c5abb5082a1cc1c6294d89c5290c46b5f67808cfdb612b7ec27e8ba061c22e8d"
+    url "https://files.pythonhosted.org/packages/f8/7f/3de5402f39890ac5660b86bcf5c03f9d855dad5c4ed764866d7b592b46fd/sse_starlette-3.3.4-py3-none-any.whl"
+    sha256 "84bb06e58939a8b38d8341f1bc9792f06c2b53f48c608dd207582b664fc8f3c1"
   end
 
   resource "starlette" do
@@ -202,8 +202,8 @@ class Grove < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/a2/41/ed1f3e47b71b9e0bae23445189274048332a423798627d47e30314c739a0/textual-8.2.0-py3-none-any.whl"
-    sha256 "0478fed6e945bcadd6f3841e10d05213d318cdb5c4345c04ae78f7ec32e7b63d"
+    url "https://files.pythonhosted.org/packages/25/09/c6f000c2e3702036e593803319af02feee58a662528d0d5728a37e1cf81b/textual-8.2.1-py3-none-any.whl"
+    sha256 "746cbf947a8ca875afc09779ef38cadbc7b9f15ac886a5090f7099fef5ade990"
   end
 
   resource "typer" do

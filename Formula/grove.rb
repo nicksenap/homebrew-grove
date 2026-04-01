@@ -3,8 +3,8 @@ class Grove < Formula
 
   desc "Git Worktree Workspace Orchestrator"
   homepage "https://github.com/nicksenap/grove"
-  url "https://github.com/nicksenap/grove/archive/refs/tags/v0.12.15.tar.gz"
-  sha256 "d8f86b7060a398eb8ee9472a6fbbfd9cf69e64e3d977c9fc63d52847271ce6db"
+  url "https://github.com/nicksenap/grove/archive/refs/tags/v0.12.16.tar.gz"
+  sha256 "c6eb0da2544af868e194a9196b1b7ff2082bffbfbf5972413515177cee98e99f"
   license "MIT"
 
   depends_on "openssl@3"

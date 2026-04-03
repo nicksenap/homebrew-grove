@@ -3,8 +3,8 @@ class Grove < Formula
 
   desc "Git Worktree Workspace Orchestrator"
   homepage "https://github.com/nicksenap/grove"
-  url "https://github.com/nicksenap/grove/archive/refs/tags/v0.12.16.tar.gz"
-  sha256 "c6eb0da2544af868e194a9196b1b7ff2082bffbfbf5972413515177cee98e99f"
+  url "https://github.com/nicksenap/grove/archive/refs/tags/v0.12.17.tar.gz"
+  sha256 "b0c90170a11c838ffd2bd2533fb26d5569271adce389666a43d6aff7b12c10e5"
   license "MIT"
 
   depends_on "openssl@3"
@@ -97,8 +97,8 @@ class Grove < Formula
   end
 
   resource "mcp" do
-    url "https://files.pythonhosted.org/packages/fd/d9/eaa1f80170d2b7c5ba23f3b59f766f3a0bb41155fbc32a69adfa1adaaef9/mcp-1.26.0-py3-none-any.whl"
-    sha256 "904a21c33c25aa98ddbeb47273033c435e595bbacfdb177f4bd87f6dceebe1ca"
+    url "https://files.pythonhosted.org/packages/9c/46/f6b4ad632c67ef35209a66127e4bddc95759649dd595f71f13fba11bdf9a/mcp-1.27.0-py3-none-any.whl"
+    sha256 "5ce1fa81614958e267b21fb2aa34e0aea8e2c6ede60d52aba45fd47246b4d741"
   end
 
   resource "mdit-py-plugins" do
@@ -202,8 +202,8 @@ class Grove < Formula
   end
 
   resource "textual" do
-    url "https://files.pythonhosted.org/packages/25/09/c6f000c2e3702036e593803319af02feee58a662528d0d5728a37e1cf81b/textual-8.2.1-py3-none-any.whl"
-    sha256 "746cbf947a8ca875afc09779ef38cadbc7b9f15ac886a5090f7099fef5ade990"
+    url "https://files.pythonhosted.org/packages/a7/18/4d59eb3f2241db6d346a90f2452fc47a19d61090a38b9cf331afe23e8431/textual-8.2.2-py3-none-any.whl"
+    sha256 "35a8f439875dc6e5b4dc7ee72dc9698a40bd13091c2de5bd5b2d4318522af8df"
   end
 
   resource "typer" do
@@ -227,8 +227,8 @@ class Grove < Formula
   end
 
   resource "uvicorn" do
-    url "https://files.pythonhosted.org/packages/0a/89/f8827ccff89c1586027a105e5630ff6139a64da2515e24dafe860bd9ae4d/uvicorn-0.42.0-py3-none-any.whl"
-    sha256 "96c30f5c7abe6f74ae8900a70e92b85ad6613b745d4879eb9b16ccad15645359"
+    url "https://files.pythonhosted.org/packages/55/df/0cf5b0c451602748fdc7a702d4667f6e209bf96aa6e3160d754234445f2a/uvicorn-0.43.0-py3-none-any.whl"
+    sha256 "46fac64f487fd968cd999e5e49efbbe64bd231b5bd8b4a0b482a23ebce499620"
   end
 
   def install

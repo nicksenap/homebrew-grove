@@ -5,21 +5,21 @@
 class GroveGo < Formula
   desc "Git Worktree Workspace Orchestrator (Go)"
   homepage "https://github.com/nicksenap/grove"
-  version "0.13.2-go"
+  version "0.13.3-go"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/nicksenap/grove/releases/download/v0.13.2-go/gw_0.13.2-go_darwin_amd64.tar.gz"
-      sha256 "637a081284b9643dc302208d00e350d06c68d6475c4491182a96b8944ebef35b"
+      url "https://github.com/nicksenap/grove/releases/download/v0.13.3-go/gw_0.13.3-go_darwin_amd64.tar.gz"
+      sha256 "af02afa23ce0a581c674bc7587368e92d9f90082f6ceea48f9a64dbc51f82f23"
 
       define_method(:install) do
         bin.install "gw"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/nicksenap/grove/releases/download/v0.13.2-go/gw_0.13.2-go_darwin_arm64.tar.gz"
-      sha256 "ffb61c1f5eb173160d4f9d717b6a4feccd70aa5d55da50064eefffe4a08e3c2a"
+      url "https://github.com/nicksenap/grove/releases/download/v0.13.3-go/gw_0.13.3-go_darwin_arm64.tar.gz"
+      sha256 "94f6f48d338fde49d0b6f7905b435eabb8123cf191f9f5a99743862d3f355610"
 
       define_method(:install) do
         bin.install "gw"
@@ -29,15 +29,15 @@ class GroveGo < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/nicksenap/grove/releases/download/v0.13.2-go/gw_0.13.2-go_linux_amd64.tar.gz"
-      sha256 "c8d11fea078c0fbc8d282b5b01a1ac1469631a7c5aa6ecde10d9c30daa69a538"
+      url "https://github.com/nicksenap/grove/releases/download/v0.13.3-go/gw_0.13.3-go_linux_amd64.tar.gz"
+      sha256 "5e960fc7e86c90f459d785a2228d34c8529b13c6bc5dfe6ad19f7d688daf7fed"
       define_method(:install) do
         bin.install "gw"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/nicksenap/grove/releases/download/v0.13.2-go/gw_0.13.2-go_linux_arm64.tar.gz"
-      sha256 "e556a92f53e99d3740da9a5d2c06fa9b827aa128f57b6bacb7dd4e9a29e8bb5b"
+      url "https://github.com/nicksenap/grove/releases/download/v0.13.3-go/gw_0.13.3-go_linux_arm64.tar.gz"
+      sha256 "cbb6ab91fdec24b446ede4ef8bc6d1755aded7c69978feac8ab916d2e902795e"
       define_method(:install) do
         bin.install "gw"
       end

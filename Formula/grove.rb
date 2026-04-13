@@ -5,21 +5,21 @@
 class Grove < Formula
   desc "Git Worktree Workspace Orchestrator"
   homepage "https://github.com/nicksenap/grove"
-  version "1.1.4"
+  version "1.1.5"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/nicksenap/grove/releases/download/v1.1.4/gw_1.1.4_darwin_amd64.tar.gz"
-      sha256 "b3f4ff49f882e994efd06e1e0d4f7d5726767dda74448c76cfa3f10f48dfe15c"
+      url "https://github.com/nicksenap/grove/releases/download/v1.1.5/gw_1.1.5_darwin_amd64.tar.gz"
+      sha256 "c106c548936fde18680a3fd0cd5f8a47f7f583651ea48d049996be009edbf04f"
 
       define_method(:install) do
         bin.install "gw"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/nicksenap/grove/releases/download/v1.1.4/gw_1.1.4_darwin_arm64.tar.gz"
-      sha256 "829d4d560ddb1a2938905ac3477ac5aaccaa9a90a3541f70914b7c0e98274b71"
+      url "https://github.com/nicksenap/grove/releases/download/v1.1.5/gw_1.1.5_darwin_arm64.tar.gz"
+      sha256 "25bff272a23d0483421b1db7a5db34b14c45ef5d7f4f09d9dba0a8cf67dbe62e"
 
       define_method(:install) do
         bin.install "gw"
@@ -29,15 +29,15 @@ class Grove < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/nicksenap/grove/releases/download/v1.1.4/gw_1.1.4_linux_amd64.tar.gz"
-      sha256 "d80907c209828d14bd80178f59e63cfbdb759ee3171d429074b0ed50f3277700"
+      url "https://github.com/nicksenap/grove/releases/download/v1.1.5/gw_1.1.5_linux_amd64.tar.gz"
+      sha256 "e4ffd268fb4fe1b177a6e3a344d40960f9a624433acee43775cbdb7114ca6f47"
       define_method(:install) do
         bin.install "gw"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/nicksenap/grove/releases/download/v1.1.4/gw_1.1.4_linux_arm64.tar.gz"
-      sha256 "2909699af8c6783860ceba6eb0bc4ff496102d14eba237c7bedb8bfcb5a80a4f"
+      url "https://github.com/nicksenap/grove/releases/download/v1.1.5/gw_1.1.5_linux_arm64.tar.gz"
+      sha256 "373dd66dc29526dfd639df9017140b97f63494baf20be4ffada346b705525b66"
       define_method(:install) do
         bin.install "gw"
       end

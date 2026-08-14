@@ -5,21 +5,21 @@
 class Grove < Formula
   desc "Git Worktree Workspace Orchestrator"
   homepage "https://github.com/nicksenap/grove"
-  version "1.1.11"
+  version "1.1.12"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/nicksenap/grove/releases/download/v1.1.11/gw_1.1.11_darwin_amd64.tar.gz"
-      sha256 "6dc17a57eace29ef9e59aec529c25865df79d2b0080e4af98638f4e23d100f98"
+      url "https://github.com/nicksenap/grove/releases/download/v1.1.12/gw_1.1.12_darwin_amd64.tar.gz"
+      sha256 "f1e93c0aa308ac67cd296bf7d3f53dfcf14dac6248eaa298c349bd1007433469"
 
       define_method(:install) do
         bin.install "gw"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/nicksenap/grove/releases/download/v1.1.11/gw_1.1.11_darwin_arm64.tar.gz"
-      sha256 "b991016e00398625c32d10205b35c5d4f6313bf21abf3502e307bf0201042665"
+      url "https://github.com/nicksenap/grove/releases/download/v1.1.12/gw_1.1.12_darwin_arm64.tar.gz"
+      sha256 "12b3b270a5c11c80e9995fb312f007b396ece40ce0b5903bd0071f8753ff6bae"
 
       define_method(:install) do
         bin.install "gw"
@@ -29,15 +29,15 @@ class Grove < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/nicksenap/grove/releases/download/v1.1.11/gw_1.1.11_linux_amd64.tar.gz"
-      sha256 "b04202669a1d81e1ef52e9f338e69a75eabd826fba88a5252258a82c1bd86d51"
+      url "https://github.com/nicksenap/grove/releases/download/v1.1.12/gw_1.1.12_linux_amd64.tar.gz"
+      sha256 "519618e3c8c91ee7182868276018f05fc52be5cd8739f30f55ed95de07a5e7fb"
       define_method(:install) do
         bin.install "gw"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/nicksenap/grove/releases/download/v1.1.11/gw_1.1.11_linux_arm64.tar.gz"
-      sha256 "634852dbf869e7f14b5e4b9c214eeb231d52f441ee546b4b9a4a3d9211b8177a"
+      url "https://github.com/nicksenap/grove/releases/download/v1.1.12/gw_1.1.12_linux_arm64.tar.gz"
+      sha256 "41c4f686de8ba10bda6d1dfe786444341a6bb15e6af79de5b9f4922844f8e842"
       define_method(:install) do
         bin.install "gw"
       end
